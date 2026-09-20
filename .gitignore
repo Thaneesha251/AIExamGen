@@ -1,0 +1,69 @@
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Node / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+dist-ssr/
+*.local
+
+# Environment variables & secrets
+.env
+*.pem
+*.key
+
+# Application Storage & Uploads
+storage/uploads/*
+!storage/uploads/.gitkeep
+backend/app/storage/uploads/*
+aiexamgen.db
+*.sqlite
+*.sqlite3
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+# Backend uploaded files
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+
+# Test/scratch output files
+backend/scratch_*.txt
